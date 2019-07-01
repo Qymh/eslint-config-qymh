@@ -21,5 +21,10 @@ module.exports = {
     'no-debugger': 'error',
     // if else 可以分段
     'brace-style': [0]
+  },
+  globals: {
+    document: false,
+    navigator: false,
+    window: false
   }
 };
