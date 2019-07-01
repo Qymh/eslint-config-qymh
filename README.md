@@ -22,7 +22,7 @@ yarn add eslint prettier eslint-config-qymh eslint-config-prettier eslint-config
 
 ```javascript
 {
-  extends:['qymh']
+  "extends":["qymh"]
 }
 ```
 
@@ -41,7 +41,7 @@ yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
 
 ```javascript
 {
-  extends:['qymh/typescript']
+  "extends":["qymh/typescript"]
 }
 ```
 
@@ -59,6 +59,6 @@ yarn add babel-eslint eslint-plugin-vue -D
 
 ```javascript
 {
-  extends:['qymh/vue']
+  "extends":["qymh/vue"]
 }
 ```
