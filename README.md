@@ -13,7 +13,7 @@ If you'd like you can try this
 Every case you need input this command
 
 ```shell
-yarn add eslint eslint-config-qymh eslint-config-prettier eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-standard -D
+yarn add eslint prettier eslint-config-qymh eslint-config-prettier eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-standard -D
 ```
 
 ### javascript or node
