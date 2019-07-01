@@ -2,6 +2,8 @@
 
 This is a group which contains rules of eslint that I use habitually
 
+Visite [CHANGELOG](https://github.com/Qymh/eslint-config-qymh/blob/master/CHANGELOG.md) to see changes
+
 ## Usage
 
 If you'd like you can try this
