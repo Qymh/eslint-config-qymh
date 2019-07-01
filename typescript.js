@@ -1,13 +1,14 @@
 const path = require('path');
 const cwd = process.cwd();
 module.exports = {
-  extends: ['standard'],
+  extends: ['standard', 'plugin:prettier/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: path.resolve(cwd, 'tsconfig.json')
   },
   plugins: ['@typescript-eslint'],
   rules: {
+    'prettier/prettier': ['error', { singleQuote: true, jsxSingleQuote: true }],
     // 冒号
     semi: ['error', 'always'],
     // 单引号
