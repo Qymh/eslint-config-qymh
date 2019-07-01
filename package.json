@@ -1,0 +1,56 @@
+{
+  "name": "eslint-config-qymh",
+  "version": "1.0.0",
+  "description": "habitual rules of eslint which suit me",
+  "keywords": [
+    "eslint",
+    "qymh"
+  ],
+  "author": {
+    "name": "Qymh",
+    "email": "qymh1211@gmail.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "pub": "node scripts/publish",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "prettier": "^1.18.2",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "conventional-changelog-cli": "^2.0.21",
+    "execa": "^2.0.1",
+    "husky": "^2.7.0",
+    "inquirer": "^6.4.1",
+    "lint-staged": "^8.2.1",
+    "semver": "^6.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}
