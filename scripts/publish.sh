@@ -14,9 +14,6 @@ log "cur version: $version, cur tag: $tag"
 log "code review"
 npm run lint
 
-log "build code"
-npm run build
-
 log "write version"
 npm version $version --message "$version"
 
