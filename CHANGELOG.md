@@ -1,3 +1,14 @@
+## [1.2.1](https://github.com/Qymh/eslint-config-qymh/compare/v1.2.0...v1.2.1) (2019-07-02)
+
+
+### Bug Fixes
+
+* **changelog:** circular changelog ([f422e38](https://github.com/Qymh/eslint-config-qymh/commit/f422e38))
+* **env:** not necessary to set env ([98f9ee0](https://github.com/Qymh/eslint-config-qymh/commit/98f9ee0))
+* **readme:** wrong quotes ([67e0463](https://github.com/Qymh/eslint-config-qymh/commit/67e0463))
+
+
+
 # [1.2.0](https://github.com/Qymh/eslint-config-qymh/compare/v1.1.0...v1.2.0) (2019-07-01)
 
 
