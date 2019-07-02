@@ -1,3 +1,12 @@
+## [1.2.2](https://github.com/Qymh/eslint-config-qymh/compare/v1.2.1...v1.2.2) (2019-07-02)
+
+
+### Bug Fixes
+
+* **typescript:** delete multiple rules ([1e1b6a1](https://github.com/Qymh/eslint-config-qymh/commit/1e1b6a1))
+
+
+
 ## [1.2.1](https://github.com/Qymh/eslint-config-qymh/compare/v1.2.0...v1.2.1) (2019-07-02)
 
 
