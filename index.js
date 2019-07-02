@@ -1,9 +1,4 @@
 module.exports = {
-  env: {
-    jest: true,
-    mocha: true,
-    node: true
-  },
   extends: ['standard', 'plugin:prettier/recommended'],
   rules: {
     'prettier/prettier': ['error', { singleQuote: true, jsxSingleQuote: true }],
@@ -21,10 +16,5 @@ module.exports = {
     'no-debugger': 'error',
     // if else 可以分段
     'brace-style': [0]
-  },
-  globals: {
-    document: false,
-    navigator: false,
-    window: false
   }
 };
