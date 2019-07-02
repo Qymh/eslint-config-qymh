@@ -9,10 +9,6 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     'prettier/prettier': ['error', { singleQuote: true, jsxSingleQuote: true }],
-    // 冒号
-    semi: ['error', 'always'],
-    // 单引号
-    quotes: ['error', 'single', { allowTemplateLiterals: true }],
     // 函数前不需要空格
     'space-before-function-paren': ['error', 'never'],
     // promise不需要必有reject
