@@ -1,3 +1,12 @@
+## [1.2.3](https://github.com/Qymh/eslint-config-qymh/compare/v1.2.2...v1.2.3) (2019-12-07)
+
+
+### Features
+
+* add parser ([ad063dd](https://github.com/Qymh/eslint-config-qymh/commit/ad063dd39fc430b077e0c155270494d3631cd406))
+
+
+
 ## [1.2.2](https://github.com/Qymh/eslint-config-qymh/compare/v1.2.1...v1.2.2) (2019-07-02)
 
 
