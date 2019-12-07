@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['standard', 'plugin:prettier/recommended'],
+  parser: 'babel-eslint',
   rules: {
     'prettier/prettier': ['error', { singleQuote: true, jsxSingleQuote: true }],
     // 单引号
