@@ -13,7 +13,7 @@ If you'd like you can try this
 Every case you need input this command
 
 ```shell
-yarn add eslint prettier eslint-config-qymh eslint-config-prettier eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-standard -D
+yarn add eslint prettier eslint-config-qymh eslint-config-prettier eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-standard babel-eslint -D
 ```
 
 ### javascript or node
@@ -51,7 +51,7 @@ yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
 you need install more modules
 
 ```shell
-yarn add babel-eslint eslint-plugin-vue -D
+yarn add eslint-plugin-vue -D
 ```
 
 - .eslintrc
