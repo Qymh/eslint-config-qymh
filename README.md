@@ -26,7 +26,6 @@ yarn add eslint prettier eslint-config-qymh eslint-config-prettier eslint-config
 }
 ```
 
-
 ### typescript
 
 - install
@@ -60,5 +59,21 @@ yarn add babel-eslint eslint-plugin-vue -D
 ```javascript
 {
   "extends":["qymh/vue"]
+}
+```
+
+### react
+
+you need install more modules
+
+```shell
+yarn add eslint-plugin-react-hooks -D
+```
+
+- .eslintrc
+
+```javascript
+{
+  "extends":["qymh/react"]
 }
 ```
