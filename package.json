@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qymh",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "repository": "https://github.com/Qymh/eslint-config-qymh.git",
   "description": "habitual rules of eslint which suit me",
   "keywords": [
