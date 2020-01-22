@@ -1,3 +1,12 @@
+## [1.2.4](https://github.com/Qymh/eslint-config-qymh/compare/v1.2.3...v1.2.4) (2020-01-22)
+
+
+### Features
+
+* add react ([35f5ae5](https://github.com/Qymh/eslint-config-qymh/commit/35f5ae5))
+
+
+
 ## [1.2.3](https://github.com/Qymh/eslint-config-qymh/compare/v1.2.2...v1.2.3) (2019-12-07)
 
 
